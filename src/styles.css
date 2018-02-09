@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+.parent-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.parent-menu li {
+    float: left;
+}
+.parent-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.parent-menu li a:hover:not(.active) {
+    background-color: #111;
+}
+.parent-menu .active{
+    background-color: #4CAF50;
+}
+.parent-container {
+    padding-left: 10px;
+}
+.child-container {
+    padding-left: 10px;
+}
+.sub-child-container {
+    padding-left: 10px;
+}
+.child-menu  {
+    padding-left: 25px;
+}
+.child-menu .active{
+    color: #4CAF50;
+}
+.sub-child-menu {
+    background-color: #f1f1f1;  
+	width: 275px;
+    list-style-type: none;	
+	margin: 0;
+    padding: 0;
+}
+.sub-child-menu .active{
+    color: #4CAF50;
+}
+.error { 
+    color: red;
+    font-size: 20px;
+} 
+button {
+    background-color: #008CBA;
+    color: white;
+}
